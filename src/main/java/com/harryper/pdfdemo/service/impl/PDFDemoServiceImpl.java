@@ -65,11 +65,11 @@ public class PDFDemoServiceImpl implements PDFDemoService {
 
         paragraph = new Paragraph("供应商", font);
         table.addCell(paragraph);
-        paragraph = new Paragraph("深圳市润电信息科技有限公司武汉分公司开发运维部", font);
+        paragraph = new Paragraph("搜索", font);
         table.addCell(paragraph);
         paragraph = new Paragraph("报价人", font);
         table.addCell(paragraph);
-        paragraph = new Paragraph("刘海波", font);
+        paragraph = new Paragraph("LH", font);
         table.addCell(paragraph);
 
         paragraph = new Paragraph("报价有效日期", font);
